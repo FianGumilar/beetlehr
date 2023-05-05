@@ -10,6 +10,7 @@ import VEmployee from "@/components/src/icons/VEmployee.vue";
 import VSetting from "@/components/src/icons/VSetting.vue";
 import VNoticeBoard from "@/components/src/icons/VNoticeBoard.vue";
 import VApproval from "@/components/src/icons/VApproval.vue";
+import VFingerprint from "@/components/src/icons/VFingerprint.vue"
 import VAttendanceSolid from "@/components/src/icons/VAttendanceSolid.vue";
 import { array, bool } from "vue-types";
 import VSidebarGroup from "@/components/VSidebarGroup/index.vue";
@@ -23,7 +24,8 @@ const icons = {
     VPlane,
     VPayroll,
     VNoticeBoard,
-    VApproval
+    VApproval,
+    VFingerprint,
 }
 const props = defineProps({
     sidebarOpen: bool().def(false),
